@@ -13,15 +13,15 @@
      "build": "webpack --mode production"
 ```
 - Before developing there are some steps to perform.
-  - First create a urls.py file in frontend app or folder and include the path for index file in views.py
-  - Second include the frontend.urls file in the urls.py file of your main folder in project
-  - Next add the apps to the INSTALLED_APPS section in settings.py file of your main folder as below
+  - First create a urls.py file in frontend app or folder and include the path for index file in views.py.
+  - Second include the frontend.urls file in the urls.py file of your main folder in project.
+  - Next add the apps to the INSTALLED_APPS section in settings.py file of your main folder as below.
   ```
     "frontend.apps.FrontendConfig",
     "api.apps.ApiConfig"
   ```
 - **Note** : The apps created are frontend,api so those are added to installed_apps as above.
-- To start developing run the following in the main directory
+- To start developing run the following in the main directory.
 ```
   python manage.py
 ```
